@@ -1,0 +1,12 @@
+{
+  "seed": 7,
+  "n": 11,
+  "retrieval_lexical_only": {
+    "hit@1": 0.8182,
+    "hit@3": 0.9091,
+    "hit@5": 1.0,
+    "mrr": 0.8864,
+    "n": 11
+  },
+  "note": "PROVISIONAL: lexical-only proxy of run_eval hit@k (no DB/embeddings); run_eval.py itself BLOCKED on Postgres"
+}

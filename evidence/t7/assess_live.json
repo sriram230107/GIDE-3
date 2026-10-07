@@ -1,0 +1,35 @@
+{
+  "source": "attention.pdf p.2",
+  "chunk_chars": 825,
+  "model": "qwen2.5:3b (TEXT_PROVIDER=ollama)",
+  "results": [
+    {
+      "qtype": "mcq",
+      "stem": "Which of the following models operates with a linear increase in operations as the distance between input or output positions grows?",
+      "answer": "Transformer",
+      "gen_s": 122.6,
+      "verify_s": 61.5,
+      "verify_ok": false,
+      "verify_issues": [
+        "independent solver disagrees with the answer key"
+      ]
+    },
+    {
+      "qtype": "short",
+      "stem": "What is the key difference in the number of operations required for computing hidden representations between the ConvS2S and ByteNet models?",
+      "answer": "The number of operations required to relate signals from two arbitrary input or output positions grows linearly for Conv",
+      "gen_s": 43.3,
+      "verify_s": 58.2,
+      "verify_ok": false,
+      "verify_issues": [
+        "independent solver disagrees with the answer key"
+      ]
+    },
+    {
+      "qtype": "numeric",
+      "skipped": true,
+      "reason": "source has nothing to compute",
+      "gen_s": 11.1
+    }
+  ]
+}

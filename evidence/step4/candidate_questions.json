@@ -1,0 +1,116 @@
+{
+  "provisional": "PROVISIONAL (auto-generated, unreviewed)",
+  "seed": 7,
+  "items": [
+    {
+      "id": "att-p1",
+      "question": "What does the paper say about models, best, translation?",
+      "expected_answer": "The dominant sequence transduction models are based on complex recurrent or\nconvolutional neural networks that include an encoder and a decoder. The best\nperforming models also connect the encoder and",
+      "expected": {
+        "source": "attention",
+        "page": 1
+      },
+      "chunk_id": "attention.pdf#page=1"
+    },
+    {
+      "id": "att-p2",
+      "question": "What does the paper say about recurrent, neural, networks?",
+      "expected_answer": "Recurrent neural networks, long short-term memory [13] and gated recurrent [7] neural networks\nin particular, have been firmly established as state of the art approaches in sequence modeling and\ntrans",
+      "expected": {
+        "source": "attention",
+        "page": 2
+      },
+      "chunk_id": "attention.pdf#page=2"
+    },
+    {
+      "id": "att-p3",
+      "question": "What does the paper say about layers, sub, layer?",
+      "expected_answer": "Encoder:\nThe encoder is composed of a stack of N = 6 identical layers. Each layer has two\nsub-layers. The first is a multi-head self-attention mechanism, and the second is a simple, position-\nwise ful",
+      "expected": {
+        "source": "attention",
+        "page": 3
+      },
+      "chunk_id": "attention.pdf#page=3"
+    },
+    {
+      "id": "att-p4",
+      "question": "What does the paper say about attention, dot, keys?",
+      "expected_answer": "We call our particular attention \"Scaled Dot-Product Attention\" (Figure 2). The input consists of\nqueries and keys of dimension dk, and values of dimension dv. We compute the dot products of the\nquery",
+      "expected": {
+        "source": "attention",
+        "page": 4
+      },
+      "chunk_id": "attention.pdf#page=4"
+    },
+    {
+      "id": "att-p5",
+      "question": "What does the paper say about decoder, encoder, sequence?",
+      "expected_answer": "\u2022 In \"encoder-decoder attention\" layers, the queries come from the previous decoder layer,\nand the memory keys and values come from the output of the encoder. This allows every\nposition in the decoder",
+      "expected": {
+        "source": "attention",
+        "page": 5
+      },
+      "chunk_id": "attention.pdf#page=5"
+    },
+    {
+      "id": "att-p6",
+      "question": "What does the paper say about positional, encodings, model?",
+      "expected_answer": "Since our model contains no recurrence and no convolution, in order for the model to make use of the\norder of the sequence, we must inject some information about the relative or absolute position of t",
+      "expected": {
+        "source": "attention",
+        "page": 6
+      },
+      "chunk_id": "attention.pdf#page=6"
+    },
+    {
+      "id": "att-p7",
+      "question": "What does the paper say about length, representations, smaller?",
+      "expected_answer": "length n is smaller than the representation dimensionality d, which is most often the case with\nsentence representations used by state-of-the-art models in machine translations, such as word-piece\n[38",
+      "expected": {
+        "source": "attention",
+        "page": 7
+      },
+      "chunk_id": "attention.pdf#page=7"
+    },
+    {
+      "id": "att-p8",
+      "question": "What does the paper say about dropout, apply, sub?",
+      "expected_answer": "Residual Dropout\nWe apply dropout [33] to the output of each sub-layer, before it is added to the\nsub-layer input and normalized. In addition, we apply dropout to the sums of the embeddings and the\npo",
+      "expected": {
+        "source": "attention",
+        "page": 8
+      },
+      "chunk_id": "attention.pdf#page=8"
+    },
+    {
+      "id": "att-p9",
+      "question": "What does the paper say about perplexities, per, table?",
+      "expected_answer": "Table 3: Variations on the Transformer architecture. Unlisted values are identical to those of the base\nmodel. All metrics are on the English-to-German translation development set, newstest2013. Liste",
+      "expected": {
+        "source": "attention",
+        "page": 9
+      },
+      "chunk_id": "attention.pdf#page=9"
+    },
+    {
+      "id": "att-p10",
+      "question": "What does the paper say about wsj, only, discriminative?",
+      "expected_answer": "Parser\nTraining\nWSJ 23 F1\nVinyals & Kaiser el al. (2014) [37]\nWSJ only, discriminative\n88.3\nPetrov et al. (2006) [29]\nWSJ only, discriminative\n90.4\nZhu et al. (2013) [40]\nWSJ only, discriminative\n90.4",
+      "expected": {
+        "source": "attention",
+        "page": 10
+      },
+      "chunk_id": "attention.pdf#page=10"
+    },
+    {
+      "id": "att-p13",
+      "question": "What does the paper say about attention, making, heads?",
+      "expected_answer": "Figure 3: An example of the attention mechanism following long-distance dependencies in the\nencoder self-attention in layer 5 of 6. Many of the attention heads attend to a distant dependency of\nthe ve",
+      "expected": {
+        "source": "attention",
+        "page": 13
+      },
+      "chunk_id": "attention.pdf#page=13"
+    }
+  ]
+}

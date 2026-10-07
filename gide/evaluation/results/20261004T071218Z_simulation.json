@@ -1,0 +1,452 @@
+{
+  "kind": "simulation",
+  "date": "20261004T071218Z",
+  "config": {
+    "seeds": 100,
+    "sessions": 6,
+    "questions_per_session": 10,
+    "gap_days": 2.0,
+    "n_concepts": 12,
+    "items_per_concept": 12
+  },
+  "metrics": {
+    "results": {
+      "novice": {
+        "random": {
+          "gain": [
+            0.3025,
+            0.1657
+          ],
+          "end_known": [
+            0.3517,
+            0.1627
+          ],
+          "mae": [
+            0.3706,
+            0.0844
+          ],
+          "repetition_rate": [
+            0.1852,
+            0.0441
+          ]
+        },
+        "random_norepeat": {
+          "gain": [
+            0.2833,
+            0.1611
+          ],
+          "end_known": [
+            0.3325,
+            0.1467
+          ],
+          "mae": [
+            0.3693,
+            0.0774
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        },
+        "adaptive_noforget": {
+          "gain": [
+            0.2942,
+            0.1656
+          ],
+          "end_known": [
+            0.3433,
+            0.1532
+          ],
+          "mae": [
+            0.4908,
+            0.0751
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        },
+        "adaptive": {
+          "gain": [
+            0.3108,
+            0.1455
+          ],
+          "end_known": [
+            0.36,
+            0.1484
+          ],
+          "mae": [
+            0.4118,
+            0.0672
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "average": {
+        "random": {
+          "gain": [
+            0.3567,
+            0.1854
+          ],
+          "end_known": [
+            0.6092,
+            0.138
+          ],
+          "mae": [
+            0.3218,
+            0.0877
+          ],
+          "repetition_rate": [
+            0.1852,
+            0.0441
+          ]
+        },
+        "random_norepeat": {
+          "gain": [
+            0.3642,
+            0.1871
+          ],
+          "end_known": [
+            0.6167,
+            0.1549
+          ],
+          "mae": [
+            0.3329,
+            0.091
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        },
+        "adaptive_noforget": {
+          "gain": [
+            0.4008,
+            0.1711
+          ],
+          "end_known": [
+            0.6533,
+            0.138
+          ],
+          "mae": [
+            0.3668,
+            0.0942
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        },
+        "adaptive": {
+          "gain": [
+            0.4733,
+            0.1792
+          ],
+          "end_known": [
+            0.7258,
+            0.1408
+          ],
+          "mae": [
+            0.4037,
+            0.0715
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "fast-forgetful": {
+        "random": {
+          "gain": [
+            0.2108,
+            0.1739
+          ],
+          "end_known": [
+            0.3592,
+            0.1552
+          ],
+          "mae": [
+            0.4523,
+            0.0905
+          ],
+          "repetition_rate": [
+            0.1852,
+            0.0441
+          ]
+        },
+        "random_norepeat": {
+          "gain": [
+            0.2267,
+            0.1692
+          ],
+          "end_known": [
+            0.375,
+            0.1533
+          ],
+          "mae": [
+            0.4409,
+            0.1062
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        },
+        "adaptive_noforget": {
+          "gain": [
+            0.1542,
+            0.1693
+          ],
+          "end_known": [
+            0.3025,
+            0.1306
+          ],
+          "mae": [
+            0.5638,
+            0.0845
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        },
+        "adaptive": {
+          "gain": [
+            0.2175,
+            0.172
+          ],
+          "end_known": [
+            0.3658,
+            0.1566
+          ],
+          "mae": [
+            0.4713,
+            0.0582
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "strong-careless": {
+        "random": {
+          "gain": [
+            0.2192,
+            0.189
+          ],
+          "end_known": [
+            0.755,
+            0.1183
+          ],
+          "mae": [
+            0.2971,
+            0.0739
+          ],
+          "repetition_rate": [
+            0.1852,
+            0.0441
+          ]
+        },
+        "random_norepeat": {
+          "gain": [
+            0.2033,
+            0.1813
+          ],
+          "end_known": [
+            0.7392,
+            0.1235
+          ],
+          "mae": [
+            0.3018,
+            0.0865
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        },
+        "adaptive_noforget": {
+          "gain": [
+            0.245,
+            0.1707
+          ],
+          "end_known": [
+            0.7808,
+            0.1246
+          ],
+          "mae": [
+            0.2873,
+            0.099
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        },
+        "adaptive": {
+          "gain": [
+            0.2992,
+            0.1888
+          ],
+          "end_known": [
+            0.835,
+            0.1184
+          ],
+          "mae": [
+            0.3505,
+            0.0839
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "_overall": {
+        "random": {
+          "gain": [
+            0.2723,
+            0.1881
+          ],
+          "end_known": [
+            0.5188,
+            0.224
+          ],
+          "mae": [
+            0.3604,
+            0.1029
+          ],
+          "repetition_rate": [
+            0.1852,
+            0.0439
+          ]
+        },
+        "random_norepeat": {
+          "gain": [
+            0.2694,
+            0.185
+          ],
+          "end_known": [
+            0.5158,
+            0.2222
+          ],
+          "mae": [
+            0.3612,
+            0.1043
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        },
+        "adaptive_noforget": {
+          "gain": [
+            0.2735,
+            0.1907
+          ],
+          "end_known": [
+            0.52,
+            0.2446
+          ],
+          "mae": [
+            0.4272,
+            0.139
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        },
+        "adaptive": {
+          "gain": [
+            0.3252,
+            0.195
+          ],
+          "end_known": [
+            0.5717,
+            0.2552
+          ],
+          "mae": [
+            0.4093,
+            0.0826
+          ],
+          "repetition_rate": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "_config": {
+        "seeds": 100,
+        "sessions": 6,
+        "questions_per_session": 10,
+        "gap_days": 2.0,
+        "n_concepts": 12,
+        "items_per_concept": 12
+      }
+    },
+    "paired": [
+      {
+        "a": "adaptive",
+        "b": "random",
+        "metric": "gain",
+        "n_students": 400,
+        "mean_diff": 0.0529,
+        "ci95": [
+          0.0351,
+          0.0707
+        ]
+      },
+      {
+        "a": "adaptive",
+        "b": "random_norepeat",
+        "metric": "gain",
+        "n_students": 400,
+        "mean_diff": 0.0558,
+        "ci95": [
+          0.0371,
+          0.0745
+        ]
+      },
+      {
+        "a": "adaptive",
+        "b": "adaptive_noforget",
+        "metric": "gain",
+        "n_students": 400,
+        "mean_diff": 0.0517,
+        "ci95": [
+          0.0356,
+          0.0677
+        ]
+      },
+      {
+        "a": "adaptive_noforget",
+        "b": "random_norepeat",
+        "metric": "gain",
+        "n_students": 400,
+        "mean_diff": 0.0042,
+        "ci95": [
+          -0.0134,
+          0.0218
+        ]
+      },
+      {
+        "a": "adaptive",
+        "b": "random_norepeat",
+        "metric": "mae",
+        "n_students": 400,
+        "mean_diff": 0.0481,
+        "ci95": [
+          0.0377,
+          0.0584
+        ]
+      }
+    ]
+  },
+  "notes": ""
+}

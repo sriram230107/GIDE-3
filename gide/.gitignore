@@ -1,0 +1,15 @@
+storage/
+services/api/.env
+.env
+__pycache__/
+.pytest_cache/
+node_modules/
+.next/
+evaluation/testset.json
+
+# Python virtual environment
+gide/services/api/.venv/
+
+# Python bytecode
+*.pyc
+

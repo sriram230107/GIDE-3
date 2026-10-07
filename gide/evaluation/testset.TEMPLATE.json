@@ -1,0 +1,16 @@
+{
+  "_README": "This is a FORMAT TEMPLATE, not data. Copy to testset.json and fill with questions YOU wrote from YOUR course material (40-60 answerable, 10-15 ambiguous, 10-15 off_material). Do not evaluate on this file.",
+  "course_title_hint": "name of the course in Gide",
+  "items": [
+    {"id": "a1", "bucket": "answerable", "question": "<question whose answer is in one place of your material>",
+     "expected_answer": "<reference answer written by a human>",
+     "expected": {"source": "<substring of the source title as shown in Gide>", "page": 12},
+     "topic": "<topic>", "concept": "<concept>"},
+    {"id": "a2", "bucket": "answerable", "question": "<question answered in a lecture video>",
+     "expected_answer": "<reference answer>",
+     "expected": {"source": "<video title substring>", "t_start": 754, "t_end": 790}},
+    {"id": "m1", "bucket": "ambiguous", "question": "<question the material only partly covers>",
+     "expected_answer": "<what the material does cover>", "expected": {"source": "<substring>", "slide": 8}},
+    {"id": "o1", "bucket": "off_material", "question": "<question clearly outside the course>"}
+  ]
+}
